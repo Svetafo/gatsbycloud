@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Проекты" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -45,7 +45,7 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'Разработка и запуск бренд-медиа. В задачи проекта входили формирование имиджа застройщика, создание базы знаний о технологиях компании, помощь с ответами на вопросы жителей через экспертность и личный опыт. С конца 2019 года проект находится в стадии заморозки.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                       Посмотреть
                       </a>
 
                       {repo && (
