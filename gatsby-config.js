@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
+        name: `SF`,
         short_name: `Simplefolio`,
         start_url: `/`,
         background_color: `#fff`,
@@ -31,5 +31,11 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+          bucketName: 'edibleclouds',
+      },
+  },
   ],
 };
