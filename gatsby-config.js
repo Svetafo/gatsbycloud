@@ -35,6 +35,8 @@ module.exports = {
       resolve: `gatsby-plugin-s3`,
       options: {
           bucketName: 'edibleclouds',
+          region: 'us-east-1',
+          customAwsEndpointHostname: 'storage.yandexcloud.net'
       },
   },
   ],
