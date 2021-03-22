@@ -26,33 +26,33 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'Медиа Группы ПИК',
+  //   info: '',
+  //   info2: '',
+  //   url: 'https://pik.media/',
+  //   //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project2.jpg',
+  //   title: 'Медиа НИУ ВШЭ',
+  //   info: 'Выпуск бюллетеня Управления академического развития для сотрудников университета. В мои задачи входили интервью, согласование тем, редактура текстов, разработка инфосхем, рассылки и посты, работа с иллюстраторами и дизайнерами.',
+  //   info2: '',
+  //   url: 'https://okna.hse.ru/',
+  //   // repo: 'https://okna.hse.ru/', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Медиа Группы ПИК',
-    info: '',
+    img: 'project3.jpg',
+    title: 'С нуля и до деплоя',
+    info: 'Как сделать и разместить статический сайт в облаке на технологиях Gatsby и Yandex.Cloud. Пошаговая инструкция деплоя сайта в облако, прикрутки к нему сертификата Let’s Encrypt, домена второго уровня и настройки API-шлюза.',
     info2: '',
-    url: 'https://pik.media/',
-    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project2.jpg',
-    title: 'Медиа НИУ ВШЭ',
-    info: 'Выпуск корпоративного медиа Управления академического развития для сотрудников университета. В мои задачи входили интервью, согласование тем, редактура текстов, разработка инфосхем, рассылки и посты, работа с иллюстраторами и дизайнерами.',
-    info2: '',
-    url: 'https://okna.hse.ru/',
-    // repo: 'https://okna.hse.ru/', // if no repo, the button will not show up
-  },
-//   {
-//     id: nanoid(),
-//     img: 'project.jpg',
-//     title: '',
-//     info: '',
-//     info2: '',
-//     url: '',
+    url: 'https://habr.com/ru/post/547134/',
 //     repo: 'https://github.com/cobidev/react-simplefolio',// if no repo, the button will not show up
-//   },
+  },
 ];
 
 // CONTACT DATA
